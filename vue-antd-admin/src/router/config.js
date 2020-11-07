@@ -57,7 +57,17 @@ const options = {
             {
               path: 'article',
               name: '文章列表',
-              component: () => import('@/pages/articleList/article/article'),
+              component: () => import('@/pages/articleList/article'),
+            },
+            {
+              path: 'column',
+              name: '文章栏目',
+              component: () => import('@/pages/articleList/column'),
+            },
+            {
+              path: 'category',
+              name: '文章类别',
+              component: () => import('@/pages/articleList/category'),
             }
           ]
         },

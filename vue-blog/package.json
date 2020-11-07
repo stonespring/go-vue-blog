@@ -1,0 +1,38 @@
+{
+  "name": "vue-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap-sass": "^3.4.1",
+    "core-js": "^3.6.5",
+    "font-awesome": "^4.7.0",
+    "highlight.js": "^10.3.2",
+    "moment": "^2.29.1",
+    "node-emoji": "^1.10.0",
+    "qrcode.vue": "^1.7.0",
+    "simplemde": "^1.11.2",
+    "sweetalert2": "^7.15.1",
+    "vue": "^2.6.12",
+    "vue-router": "^3.4.8",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.8",
+    "@vue/cli-service": "^4.5.8",
+    "node-sass": "^4.14.1",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^10.0.4",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

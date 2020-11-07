@@ -1,0 +1,24 @@
+{
+  "log_config": {
+    "log_path": "{you_path}",
+    "log_level": "debug"
+  },
+  "db_config": {
+    "db_host": "127.0.0.1",
+    "db_port": "3306",
+    "db_user": "root",
+    "db_password": "",
+    "db_name": "blog"
+  },
+  "redis_config": {
+    "addr": "127.0.0.1:6379",
+    "password": "",
+    "db": 0
+  },
+  "http_config": {
+    "addr": ":8090"
+  },
+  "rpc_config": {
+    "addr": ":8091"
+  }
+}

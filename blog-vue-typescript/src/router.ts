@@ -10,7 +10,7 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: () => import(/* webpackChunkName: "home" */ "./views/home.vue")
+      component: () => import(/* webpackChunkName: "home" */ "@/views/home.vue")
     },
     // {
     //   path: "/home2",
@@ -24,7 +24,7 @@ export default new Router({
       // this generates a separate chunk (articles.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () =>
-        import(/* webpackChunkName: "articles" */ "./views/articles.vue")
+        import(/* webpackChunkName: "articles" */ "@/views/articles.vue")
     },
     {
       path: "/archive",

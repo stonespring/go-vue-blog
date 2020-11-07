@@ -62,14 +62,14 @@ module.exports = {
   devServer: {
     open: process.platform === "darwin",
     host: "localhost",
-    port: 3001, //8080,
+    port: 8082, //8080,
     https: false,
     hotOnly: false,
     proxy: {
       // 设置代理
       // proxy all requests starting with /api to jsonplaceholder
       "/api": {
-        target: "http://localhost:3000/",
+        target: "http://localhost:8083/",
         changeOrigin: true,
         ws: true,
         pathRewrite: {

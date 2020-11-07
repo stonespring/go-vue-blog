@@ -40,7 +40,7 @@ service.interceptors.response.use(
     // Some example codes here:
     // code == 0: success
     if (res.status === 200) {
-      const data: ResponseData = res.data
+      const data: ResponseData = res.data;
       if (data.code === 0) {
         return data.data;
       } else {
