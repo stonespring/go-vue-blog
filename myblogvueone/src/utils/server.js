@@ -79,6 +79,7 @@ const ShowArticleAll = (artId,cateId,articleName,level,callback) =>{
 
 //查询文章详情
 const getArticleInfo = (artId,userId,callback) =>{
+  console.log(artId)
     let url = portUrl + 'article_info?id='+artId+'&user_id='+userId;
     axios.get(url).then(num => {
         if(num.data.code==200){
@@ -127,6 +128,7 @@ const ArticleComment = (artId,commentId,callback) =>{
 
 //查询其他评论数据
 const OtherComment = (leaveId,commentId,callback) =>{//分类类型ID（1：赞赏 2：友情链接 3：留言板 4：关于我）
+  alert("暂不开通")
     let url = portUrl + 'comment/OtherComment?leave_id='+leaveId+'&comment_id='+commentId;
     axios.get(url).then(num => {
         callback && callback(num.data);
@@ -177,8 +179,10 @@ const GetLike = (like_num,callback) =>{
 
 //查询友情链接数据
 const FriendUrlData = (callback) =>{
+
     let url = portUrl + 'outh/FriendUrlData';
     axios.get(url).then(num => {
+      alert("暂不开通")
         if(num.data.code==1001){
             callback && callback(num.data.data);
         }else if(num.data.code==1005){

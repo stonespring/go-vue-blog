@@ -2,7 +2,7 @@
 <template>
     <!-- Aimee的 -->
     <div v-if="this.$store.state.themeObj.user_start!=0" class="footBack footBackQian">
-        <div class="footer-img" :style="{background:this.$store.state.themeObj.bottom_img?'url('+this.$store.state.themeObj.bottom_img+') no-repeat 50%':'url(static/img/) no-repeat 50%'}">
+        <div class="footer-img" :style="{background:this.$store.state.themeObj.bottom_img?'url('+this.$store.state.themeObj.bottom_img+') no-repeat 50%':'url(static/img/headbg05.jpg) no-repeat 50%'}">
         </div>
         <div class="fcontainer">
             <p>
@@ -102,11 +102,11 @@
     width: 100%!important;
 }
 .footBack .footer-img{
-    height:368px;
+    height:100px;
     z-index: 1;
     position: relative;
     width:100%;
-    bottom:-74px;
+    bottom:0px;
     pointer-events:none;
 }
 .footBackHui{

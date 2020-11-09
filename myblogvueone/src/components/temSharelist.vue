@@ -18,7 +18,7 @@
             </span>
             <header>
                 <h1>
-                    <a :href="'#/DetailShare?aid='+item.id" target="_blank">
+                    <a :href="'#/DetailShare?aid='+item.id">
                         {{item.title}}
                     </a>
                 </h1>
@@ -33,7 +33,7 @@
                     </span>
                 </h2>
                 <div class="ui label">
-                    <a :href="'#/Share?classId='+item.class_id">{{item.cate_name}}</a>
+                    <a :href="'#/Share?category_id='+item.id">{{item.category_name}}</a>
                 </div>
             </header>
             <div class="article-content">
@@ -45,7 +45,7 @@
                 </p>
             </div>
             <div class="viewdetail">
-                <a class="tcolors-bg" :href="'#/DetailShare?aid='+item.id" target="_blank">
+                <a class="tcolors-bg" :href="'#/DetailShare?aid='+item.id" >
                     阅读全文>>
                 </a>
             </div>

@@ -9,8 +9,8 @@
                 </div>
                 <el-col :span="24" class="s-item tcommonBox" v-for="(item,index) in articleList" :key="'like'+index">
                     <span class="s-round-date">
-                        <span class="month">{{showInitDate(item.create_time,'month')}}月</span>
-                        <span class="day">{{showInitDate(item.create_time,'date')}}</span>
+                        <span class="month">{{showInitDate(item.create_date,'month')}}月</span>
+                        <span class="day">{{showInitDate(item.create_date,'date')}}</span>
                     </span>
                     <header>
                         <h1>
@@ -20,7 +20,7 @@
                         </h1>
                         <h2>
                             <i class="fa fa-fw fa-user"></i>发表于
-                            <i class="fa fa-fw fa-clock-o"></i>{{showInitDate(item.create_time,'newDate')}} •
+                            <i class="fa fa-fw fa-clock-o"></i>{{showInitDate(item.create_date,'newDate')}} •
                             <i class="fa fa-fw fa-eye"></i>{{item.browse_count}} 次围观 •
                             <i class="fa fa-fw fa-comments"></i>活捉 {{item.comment_count}} 条 •
                             <span class="rateBox">
@@ -34,10 +34,10 @@
                     </header>
                     <div class="article-content">
                         <p style="text-indent:2em;">
-                            {{item.description}}
+                            {{item.desc}}
                         </p>
                         <p style="max-height:300px;overflow:hidden;text-align:center;">
-                            <img :src="item.image" alt="" class="maxW">
+                            <img :src="item.title_image" alt="" class="maxW">
                         </p>
                     </div>
                     <div class="viewdetail">
