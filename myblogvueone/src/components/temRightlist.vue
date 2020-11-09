@@ -56,7 +56,7 @@
 
             <ul class="rs3-textwidget">
                 <li class="rs3-item" v-for="(item,index) in artCategoryList" :key="'artCategoryList'+index">
-                  <a :href="'#/Share?aid='+item.id" :key="'class1'+index"  :index="'/Share?classId='+item.id">
+                  <a :href="'#/Share?category_id='+item.id" :key="'class1'+index"  :index="'/Share?category_id='+item.id">
                     {{item.category_name}}
                   </a>
                 </li>
@@ -64,11 +64,11 @@
         </section>
         <section class="rs4">
             <h2 class="ui label">
-                热门文章
+                最近更新文章
             </h2>
             <ul>
                 <li v-for="(item,index) in browseList" :key="'browseList'+index">
-                    <a :href="'#/DetailShare?aid='+item.id" target="_blank">{{item.title}}</a> —— {{item.browse_count}} 次围观
+                    <a :href="'#/DetailShare?aid='+item.id" target="_blank">{{item.title}}</a>
                 </li>
             </ul>
         </section>
@@ -85,6 +85,7 @@
 
 <script>
 import {ShowBrowseCount,ShowArtCommentCount,showLikeData,GetLike} from '../utils/server.js'
+import {ShowArticleAll} from "../utils/server";
     export default {
         data() { //选项 / 数据
             return {
@@ -92,7 +93,7 @@ import {ShowBrowseCount,ShowArtCommentCount,showLikeData,GetLike} from '../utils
                 loveme:false,
                 gotoTop:false,//返回顶部
                 going:false,//是否正在执行上滑动作
-                browseList:'',//浏览量最多
+                browseList:[],//浏览量最多
                 artCategoryList:'',//评论量最多
                 likeNum:0,//do you like me 点击量
                 initLikeNum:0,//初始化喜欢数量
@@ -181,11 +182,10 @@ import {ShowBrowseCount,ShowArtCommentCount,showLikeData,GetLike} from '../utils
             ShowArtCommentCount(function(data){
                 // console.log('评论最多10文章数据',data);
                 that.artCategoryList = data;
-            })
-            showLikeData(function(data){
-                that.likeNum = that.initLikeNum = data;
-            })
-
+            });
+            // showLikeData(function(data){
+            //     that.likeNum = that.initLikeNum = data;
+            // });
         }
     }
 </script>

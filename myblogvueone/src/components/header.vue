@@ -112,8 +112,8 @@ import {
 	ArtClassData,
 	LoginOut,
 	// navMenList,
-	changeTheme,
-	AboutMeData
+	// changeTheme,
+	// AboutMeData
 } from '../utils/server.js'
 import {
 	Typeit
@@ -221,10 +221,10 @@ export default {
 				// console.log(msg);
 				that.classListObj = msg;
 			})
-			navMenList(function(msg) { //实验室项目列表获取
-				// console.log('实验室',msg);
-				that.projectList = msg;
-			});
+			// navMenList(function(msg) { //实验室项目列表获取
+			// 	// console.log('实验室',msg);
+			// 	that.projectList = msg;
+			// });
 			if ((this.$route.name == "Share" || this.$route.name == "Home") && this.$store.state.keywords) {
 				this.input = this.$store.state.keywords;
 			} else {
@@ -266,17 +266,17 @@ export default {
 		// console.log();
 		this.routeChange();
 		//设置主题
-		changeTheme(function(msg) {
-			// console.log(msg);
-			that.$store.state.themeObj = msg;
-
-			// console.log('主题',that.$store.state.themeObj );
-		});
+		// changeTheme(function(msg) {
+		// 	// console.log(msg);
+		// 	that.$store.state.themeObj = msg;
+    //
+		// 	// console.log('主题',that.$store.state.themeObj );
+		// });
 		//关于我的信息
-		AboutMeData(function(msg) {
-			// console.log('关于我',msg);
-			that.$store.state.aboutmeObj = msg
-		})
+		// AboutMeData(function(msg) {
+		// 	// console.log('关于我',msg);
+		// 	that.$store.state.aboutmeObj = msg
+		// })
 	},
 	mounted() { //页面元素加载完成
 		// console.log('是否是慧慧',this.$store.state.themeObj.user_start);

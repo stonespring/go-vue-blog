@@ -1,20 +1,20 @@
 <!-- 文章列表 -->
 <template>
     <el-row class="sharelistBox">
-        <div v-if="this.$route.name=='Share'&&!this.$route.query.keywords" class="shareTitle">
-            <div class="ui label" >
-                <a  :href="'#/Share?classId='+classId">{{className}}</a>
-            </div>
-            <ul v-if="sonclassList" class="shareclassTwo" >
-                <li v-for="(citem,index) in sonclassList">
-                    <a :href="'#/Share?classId='+classId+'&classtwoId='+citem.class_id" :class="citem.class_id==classtwoId?'active':''">{{citem.cate_name}}</a>
-                </li>
-            </ul>
-        </div>
+<!--        <div v-if="this.$route.name=='Share'&&!this.$route.query.keywords" class="shareTitle">-->
+<!--            <div class="ui label" >-->
+<!--                <a  :href="'#/Share?classId='+classId">{{className}}</a>-->
+<!--            </div>-->
+<!--            <ul v-if="sonclassList" class="shareclassTwo" >-->
+<!--                <li v-for="(citem,index) in sonclassList">-->
+<!--                    <a :href="'#/Share?classId='+classId+'&classtwoId='+citem.class_id" :class="citem.class_id==classtwoId?'active':''">{{citem.cate_name}}</a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </div>-->
         <el-col :span="24" class="s-item tcommonBox" v-for="(item,index) in articleList" :key="'article'+index">
             <span class="s-round-date">
-                <span class="month" v-html="showInitDate(item.create_time,'month')+'月'"></span>
-                <span class="day" v-html="showInitDate(item.create_time,'date')"></span>
+                <span class="month" v-html="showInitDate(item.create_date,'month')+'月'"></span>
+                <span class="day" v-html="showInitDate(item.create_date,'date')"></span>
             </span>
             <header>
                 <h1>
@@ -24,12 +24,12 @@
                 </h1>
                 <h2>
                     <i class="fa fa-fw fa-user"></i>发表于
-                    <i class="fa fa-fw fa-clock-o"></i><span v-html="showInitDate(item.create_time,'all')">{{showInitDate(item.create_time,'all')}}</span> •
-                    <i class="fa fa-fw fa-eye"></i>{{item.browse_count}} 次围观 •
-                    <i class="fa fa-fw fa-comments"></i>活捉 {{item.comment_count}} 条 •
+                    <i class="fa fa-fw fa-clock-o"></i><span v-html="showInitDate(item.create_date,'all')">{{showInitDate(item.create_date,'all')}}</span> •
+                    <i class="fa fa-fw fa-eye"></i>{{item.browse_count?item.browse_count:0}} 次围观 •
+<!--                    <i class="fa fa-fw fa-comments"></i>活捉 {{item.comment_count}} 条 •-->
                     <span class="rateBox">
-                        <i class="fa fa-fw fa-heart"></i>{{item.like_count?item.like_count:0}}点赞 •
-                        <i class="fa fa-fw fa-star"></i>{{item.collect_count?item.collect_count:0}}收藏
+                        <i class="fa fa-fw fa-heart"></i>{{item.like_count?item.like_count:0}}点赞
+<!--                        <i class="fa fa-fw fa-star"></i>{{item.collect_count?item.collect_count:0}}收藏-->
                     </span>
                 </h2>
                 <div class="ui label">
@@ -38,10 +38,10 @@
             </header>
             <div class="article-content">
                 <p style="text-indent:2em;">
-                    {{item.description}}
+                    {{item.desc}}
                 </p>
                 <p  style="max-height:300px;overflow:hidden;text-align:center;">
-                    <img :src="item.image" alt="" class="maxW">
+                    <img :src="item.title_image" alt="" class="maxW">
                 </p>
             </div>
             <div class="viewdetail">
@@ -64,6 +64,7 @@ import {ShowArticleAll,ArtClassData,initDate} from '../utils/server.js'
         data() { //选项 / 数据
             return {
                 artId:0,
+                category_id:0,
                 classId:0,
                 sendId:'',
                 className:'',
@@ -87,7 +88,7 @@ import {ShowArticleAll,ArtClassData,initDate} from '../utils/server.js'
                     {classId:4,name:'创作集'}
                 ],
                 queryClass:1,
-                articleList:'',
+                articleList:[],
             }
         },
 
@@ -99,6 +100,7 @@ import {ShowArticleAll,ArtClassData,initDate} from '../utils/server.js'
             showSearchShowList:function(initpage){//展示数据
                 var that = this;
                 that.classId = (that.$route.query.classId==undefined?0:parseInt(that.$route.query.classId));//获取传参的classId
+                that.category_id = (that.$route.query.category_id==undefined?0:parseInt(that.$route.query.category_id));//获取传参的classId
                 that.keywords = that.$store.state.keywords;//获取传参的keywords
                 that.classtwoId = that.$route.query.classtwoId==undefined?'':parseInt(that.$route.query.classtwoId);//获取传参的classtwoId
                 that.sendId = that.classtwoId?that.classtwoId:that.classId;
@@ -121,9 +123,8 @@ import {ShowArticleAll,ArtClassData,initDate} from '../utils/server.js'
                 }
                 //初始化 文章id为0开始
                 that.artId = initpage ? 0 : that.artId;
-                ShowArticleAll(that.artId,that.sendId,that.keywords,that.level,(result)=>{
-                    // console.log(result);
-                    if(result.code==1001){
+                ShowArticleAll(that.category_id,that.sendId,that.keywords,that.level,(result)=>{
+                    if(result.code==200){
                         var msg = result.data;
                         if(msg.length>0&&msg.length<10){
                             that.hasMore = false
@@ -131,7 +132,7 @@ import {ShowArticleAll,ArtClassData,initDate} from '../utils/server.js'
                             that.hasMore = true;
                         }
                         that.articleList = initpage ? msg : that.articleList.concat(msg);
-                        that.artId = msg[msg.length-1].id;
+                        // that.category_id = msg[msg.length-1].id;
                         // console.log(that.artId);
                     }else{
                         that.hasMore = false;

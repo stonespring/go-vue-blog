@@ -68,9 +68,9 @@ const navMenList  = (callback) => {
 //查询文章列表
 const ShowArticleAll = (artId,cateId,articleName,level,callback) =>{
     if(level == 1){
-        var url = portUrl + 'nav/ActiveClassAllData?art_id='+artId+'&cate_id='+cateId+'&article_name='+articleName;
+        var url = portUrl + 'article_list?category_id='+artId+'&cate_id='+cateId+'&article_name='+articleName;
     }else{
-        var url = portUrl + 'article/ShowArticleAll?art_id='+artId+'&cate_id='+cateId+'&article_name='+articleName;
+        var url = portUrl + 'article_list?category_id='+artId+'&cate_id='+cateId+'&article_name='+articleName;
     }
     axios.get(url).then(num => {
             callback && callback(num.data);
@@ -79,9 +79,9 @@ const ShowArticleAll = (artId,cateId,articleName,level,callback) =>{
 
 //查询文章详情
 const getArticleInfo = (artId,userId,callback) =>{
-    let url = portUrl + 'article/getArticleInfo?art_id='+artId+'&user_id='+userId;
+    let url = portUrl + 'article_info?id='+artId+'&user_id='+userId;
     axios.get(url).then(num => {
-        if(num.data.code==1001){
+        if(num.data.code==200){
             callback && callback(num.data.data);
         }else{
             alert("查询失败");
@@ -91,11 +91,11 @@ const getArticleInfo = (artId,userId,callback) =>{
 
 //查询浏览量最多的10篇文章数据
 const ShowBrowseCount = (callback) =>{
-    let url = portUrl + 'article/ShowBrowseCount';
+    let url = portUrl + 'article_num_list';
     axios.get(url).then(num => {
-        if(num.data.code==1001){
+        if(num.data.code==200){
             callback && callback(num.data.data);
-        }else if(num.data.code==1005){
+        }else if(num.data.code==200){
             return;
         }else{
             alert("查询失败");
@@ -119,10 +119,10 @@ const ShowArtCommentCount = (callback) =>{
 }
 //查询文章评论数据
 const ArticleComment = (artId,commentId,callback) =>{
-    let url = portUrl + 'comment/ArticleComment?art_id='+artId+'&comment_id='+commentId;
-    axios.get(url).then(num => {
-            callback && callback(num.data);
-    })
+    // let url = portUrl + 'comment/ArticleComment?art_id='+artId+'&comment_id='+commentId;
+    // axios.get(url).then(num => {
+    //         callback && callback(num.data);
+    // })
 }
 
 //查询其他评论数据
@@ -135,6 +135,7 @@ const OtherComment = (leaveId,commentId,callback) =>{//分类类型ID（1：赞�
 
 //文章评论
 const setArticleComment = (content,user_id,article_id,leave_pid,pid,callback) =>{
+    alert("没开通");return;
     let url = portUrl + 'comment/setArticleComment?content='+content+'&user_id='+user_id+'&article_id='+article_id+'&leave_pid='+leave_pid+'&pid='+pid;
     axios.get(url).then(num => {
             callback && callback(num.data);
@@ -194,12 +195,12 @@ const AboutMeData = (callback) =>{
         var data = JSON.parse(sessionStorage.getItem('AboutMeData'));
         callback && callback(data)
     }else{
-        let url = portUrl + 'outh/AboutMeData';
+        let url = portUrl + 'AboutMeData';
         axios.get(url).then(num => {
-            if(num.data.code==1001){
+            if(num.data.code==200){
                 sessionStorage.setItem('AboutMeData',JSON.stringify(num.data.data));
                 callback && callback(num.data.data);
-            }else if(num.data.code==1005){
+            }else if(num.data.code==200){
                 return;
             }else{
                 alert("查询失败");

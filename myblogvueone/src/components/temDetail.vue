@@ -2,8 +2,8 @@
 <template>
         <div class="detailBox tcommonBox" >
             <span class="s-round-date">
-                <span class="month" v-html="showInitDate(detailObj.create_time,'month')+'月'"></span>
-                <span class="day" v-html="showInitDate(detailObj.create_time,'date')"></span>
+                <span class="month" v-html="showInitDate(detailObj.create_date,'month')+'月'"></span>
+                <span class="day" v-html="showInitDate(detailObj.create_date,'date')"></span>
             </span>
             <header>
                 <h1>
@@ -12,7 +12,7 @@
                     </a>
                 </h1>
                 <h2>
-                    <i class="fa fa-fw fa-user"></i>发表于 <span >{{create_time}}</span> •
+                    <i class="fa fa-fw fa-user"></i>发表于 <span >{{create_date}}</span> •
                     <i class="fa fa-fw fa-eye"></i>{{detailObj.browse_count}} 次围观 •
                     <i class="fa fa-fw fa-comments"></i>活捉 {{detailObj.comment_count}} 条 •
                     <span class="rateBox">
@@ -123,8 +123,9 @@ import {getArticleInfo,getArtLikeCollect,initDate} from '../utils/server.js'
                       type: 'warning'
                       }).then(() => {//确定，跳转至登录页面
                           //储存当前页面路径，登录成功后跳回来
-                          localStorage.setItem('logUrl',that.$route.fullPath);
-                          that.$router.push({path:'/Login?login=1'});
+                      alert("不开通登录注册")
+                          // localStorage.setItem('logUrl',that.$route.fullPath);
+                          // that.$router.push({path:'/Login?login=1'});
                      }).catch(() => {//取消关闭弹窗
 
                      });
@@ -150,7 +151,7 @@ import {getArticleInfo,getArtLikeCollect,initDate} from '../utils/server.js'
                     that.collectCount = msg.collect_count?msg.collect_count:0;
                     that.likeArt = msg.user_like_start==0?false:true;
                     that.collectArt = msg.user_collect_start==0?false:true;
-                    that.create_time = initDate(that.detailObj.create_time,'all');
+                    that.create_date = initDate(that.detailObj.create_date,'all');
                 })
             }
         },
