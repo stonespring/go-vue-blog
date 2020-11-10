@@ -6,6 +6,7 @@ let portUrl = "http://localhost:8080/api/";
 
 //用户注册
 const getRegister = (username,password,email,callback) =>{
+  alert("不给你注册")
     let url = portUrl+'login/getRegister?username='+username+'&email='+email+'&password='+password;
     axios.get(url).then(num => {
             callback && callback(num.data)
