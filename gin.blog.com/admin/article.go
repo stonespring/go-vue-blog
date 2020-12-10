@@ -6,6 +6,8 @@ import (
 	"gin.blog.com/models"
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"fmt"
+	"time"
 )
 
 // 添加栏目
@@ -129,6 +131,12 @@ func CategoryEdit(c *gin.Context)  {
 func ArticleAdd(c *gin.Context)  {
 	formAdd := models.Article{}
 	c.ShouldBind(&formAdd)
+	layout := "2006-01-02T15:04:05.000Z07:00"
+	layoutTwo := "2006-01-02 15:04:05"  //转化所需模板
+	t,_ := time.Parse(layout,formAdd.CreateDate)
+	fmt.Println(t.Unix())
+	formAdd.CreateDate = time.Unix(t.Unix(), 0).Format(layoutTwo)
+	fmt.Println(formAdd.CreateDate)
 	res := db.GetDb().Table(models.BlogArticleTable).Create(&formAdd)
 	code := common.ERROR
 	msg := common.GetMsg(code)

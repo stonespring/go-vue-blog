@@ -150,7 +150,7 @@
                     title: '',
                     category_id: undefined,
                     create_date: undefined,
-                    is_show: false,
+                    is_show: 1,
                     desc: '',
                     content: '',
                 },

@@ -7,7 +7,7 @@
     "db_host": "127.0.0.1",
     "db_port": "3306",
     "db_user": "root",
-    "db_password": "",
+    "db_password": "EV0GZ1i5Eyu0luyn",
     "db_name": "blog"
   },
   "redis_config": {
