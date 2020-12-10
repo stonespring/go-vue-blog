@@ -1270,3 +1270,17 @@ GET
 [GIN] 2020/12/10 - 17:48:57 | 200 |     474.287µs |       127.0.0.1 | GET      "/api/category_list"
 GET
 [GIN] 2020/12/10 - 17:48:57 | 404 |       9.224µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+GET
+[GIN] 2020/12/10 - 17:50:41 | 404 |      12.642µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/10 - 17:50:41 | 200 |    1.038397ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 17:50:41 | 200 |     432.381µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 17:50:44 | 404 |      31.096µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 17:50:44 | 404 |      12.947µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 17:50:44 | 200 |     463.333µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 17:51:38 | 404 |      34.142µs |       127.0.0.1 | GET      "/"
