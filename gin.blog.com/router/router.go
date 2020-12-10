@@ -70,6 +70,8 @@ func InitRouter() *gin.Engine {
 		api.GET("/column_list", ColumnList)
 		api.GET("/category_list", CategoryList)
 		api.GET("/article_list", api2.ArticleList)
+		api.GET("/article_info", api2.ArticleInfo)
+		api.GET("/article_num_list", api2.ArticleList)
 	}
 
 	admin := router.Group("/admin/v1")
