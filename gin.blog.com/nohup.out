@@ -1284,3 +1284,1257 @@ GET
 [GIN] 2020/12/10 - 17:50:44 | 200 |     463.333µs |       127.0.0.1 | GET      "/api/category_list"
 GET
 [GIN] 2020/12/10 - 17:51:38 | 404 |      34.142µs |       127.0.0.1 | GET      "/"
+GET
+GET
+[GIN] 2020/12/10 - 19:01:55 | 404 |      14.774µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/10 - 19:01:55 | 200 |    1.144676ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:01:55 | 200 |     442.394µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/10 - 19:01:55 | 200 |      333.66µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:01:55 | 200 |     504.838µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/10 - 19:02:01 | 404 |      36.078µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:02:01 | 404 |      26.813µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:02:01 | 200 |     583.982µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:02:03 | 404 |      28.689µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:02:03 | 200 |     496.115µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:02:03 | 200 |      558.47µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:11:19 | 200 |     856.256µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:11:19 | 404 |      14.205µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:11:19 | 200 |     322.586µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:13:05 | 404 |      34.069µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:13:05 | 404 |      41.764µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:13:05 | 200 |     440.309µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:13:08 | 404 |       27.65µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:13:08 | 200 |      958.47µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:13:08 | 404 |      13.649µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:13:10 | 200 |     880.477µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:13:10 | 404 |      12.254µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:13:10 | 200 |     401.361µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:13:11 | 200 |     784.173µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:13:11 | 404 |      35.393µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:13:11 | 200 |      484.81µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:14:13 | 404 |      38.683µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:14:13 | 200 |     818.796µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:14:13 | 200 |     299.057µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:14:15 | 404 |      19.114µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:14:15 | 200 |     575.661µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:14:15 | 404 |       10.68µs |       127.0.0.1 | GET      "/api/article_num_list"
+数据库连接错误[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /admin/login              --> gin.blog.com/admin.Login (4 handlers)
+[GIN-debug] GET    /api/column_list          --> gin.blog.com/admin.ColumnList (4 handlers)
+[GIN-debug] GET    /api/category_list        --> gin.blog.com/admin.CategoryList (4 handlers)
+[GIN-debug] GET    /api/article_list         --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /api/article_info         --> gin.blog.com/api.ArticleInfo (4 handlers)
+[GIN-debug] GET    /api/article_num_list     --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /admin/v1/routes          --> gin.blog.com/admin.Routers (5 handlers)
+[GIN-debug] GET    /admin/v1/info            --> gin.blog.com/admin.Info (5 handlers)
+[GIN-debug] POST   /admin/v1/column_add      --> gin.blog.com/admin.ColumnAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/column_list     --> gin.blog.com/admin.ColumnList (5 handlers)
+[GIN-debug] GET    /admin/v1/category_list   --> gin.blog.com/admin.CategoryList (5 handlers)
+[GIN-debug] POST   /admin/v1/category_add    --> gin.blog.com/admin.CategoryAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/category_info   --> gin.blog.com/admin.CategoryInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/category_edit   --> gin.blog.com/admin.CategoryEdit (5 handlers)
+[GIN-debug] GET    /admin/v1/article_list    --> gin.blog.com/admin.ArticleList (5 handlers)
+[GIN-debug] POST   /admin/v1/article_add     --> gin.blog.com/admin.ArticleAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/article_info    --> gin.blog.com/admin.ArticleInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/article_edit    --> gin.blog.com/admin.ArticleEdit (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+GET
+[GIN] 2020/12/10 - 19:16:09 | 200 |     342.577µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:48)[0m 
+[33m[2020-12-10 19:16:09][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:09 | 200 |     150.662µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:09][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:09 | 200 |     210.619µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:09][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:12 | 200 |     188.602µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:12][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:12 | 200 |      89.077µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:22)[0m 
+[33m[2020-12-10 19:16:12][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:12 | 200 |      89.839µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:12][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:14 | 200 |     209.981µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:14][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:14 | 200 |     104.321µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:22)[0m 
+[33m[2020-12-10 19:16:14][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:14 | 200 |      79.975µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:14][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:22 | 200 |     225.414µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:22)[0m 
+[33m[2020-12-10 19:16:22][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:22 | 200 |     101.645µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:22][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:22 | 200 |     211.764µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:22][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:23 | 200 |     193.186µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:22)[0m 
+[33m[2020-12-10 19:16:23][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:23 | 200 |     155.284µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:23][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:23 | 200 |      89.133µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:23][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:24 | 200 |     183.762µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:22)[0m 
+[33m[2020-12-10 19:16:24][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:24 | 200 |     118.219µs |       127.0.0.1 | GET      "/api/category_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/admin/article.go:46)[0m 
+[33m[2020-12-10 19:16:24][0m [31;1m sql: database is closed [0m
+GET
+[GIN] 2020/12/10 - 19:16:24 | 200 |      93.616µs |       127.0.0.1 | GET      "/api/article_num_list"
+
+[35m(/home/wwwroot/go-vue-blog/gin.blog.com/api/article.go:24)[0m 
+[33m[2020-12-10 19:16:24][0m [31;1m sql: database is closed [0m
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /admin/login              --> gin.blog.com/admin.Login (4 handlers)
+[GIN-debug] GET    /api/column_list          --> gin.blog.com/admin.ColumnList (4 handlers)
+[GIN-debug] GET    /api/category_list        --> gin.blog.com/admin.CategoryList (4 handlers)
+[GIN-debug] GET    /api/article_list         --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /api/article_info         --> gin.blog.com/api.ArticleInfo (4 handlers)
+[GIN-debug] GET    /api/article_num_list     --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /admin/v1/routes          --> gin.blog.com/admin.Routers (5 handlers)
+[GIN-debug] GET    /admin/v1/info            --> gin.blog.com/admin.Info (5 handlers)
+[GIN-debug] POST   /admin/v1/column_add      --> gin.blog.com/admin.ColumnAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/column_list     --> gin.blog.com/admin.ColumnList (5 handlers)
+[GIN-debug] GET    /admin/v1/category_list   --> gin.blog.com/admin.CategoryList (5 handlers)
+[GIN-debug] POST   /admin/v1/category_add    --> gin.blog.com/admin.CategoryAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/category_info   --> gin.blog.com/admin.CategoryInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/category_edit   --> gin.blog.com/admin.CategoryEdit (5 handlers)
+[GIN-debug] GET    /admin/v1/article_list    --> gin.blog.com/admin.ArticleList (5 handlers)
+[GIN-debug] POST   /admin/v1/article_add     --> gin.blog.com/admin.ArticleAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/article_info    --> gin.blog.com/admin.ArticleInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/article_edit    --> gin.blog.com/admin.ArticleEdit (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+GET
+[GIN] 2020/12/10 - 19:18:09 | 200 |    1.197626ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:18:09 | 200 |     543.552µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:18:09 | 200 |     422.374µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:18:10 | 200 |     962.618µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:18:10 | 200 |     802.733µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:18:10 | 200 |     336.513µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:18:22 | 200 |     986.803µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/10 - 19:18:22 | 200 |     690.012µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:18:22 | 200 |     379.659µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/10 - 19:18:25 | 200 |     776.711µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/10 - 19:18:25 | 200 |     674.122µs |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/10 - 19:18:25 | 200 |     330.292µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[mysql] 2020/12/14 14:12:52 packets.go:122: closing bad idle connection: EOF
+[GIN] 2020/12/14 - 14:12:52 | 200 |    1.359251ms |       127.0.0.1 | GET      "/api/column_list"
+GET
+GET
+GET
+[GIN] 2020/12/14 - 14:12:52 | 200 |     657.831µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/14 - 14:12:52 | 200 |    1.292818ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/14 - 14:12:52 | 200 |    1.906086ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:45:57 | 200 |     564.035µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/14 - 15:45:57 | 200 |     743.237µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:45:57 | 200 |     598.627µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:45:57 | 200 |     286.953µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:45:57 | 200 |     541.416µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/14 - 15:46:04 | 200 |    1.973001ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:46:04 | 200 |     641.473µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:04 | 200 |     571.717µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:07 | 200 |      855.05µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:07 | 200 |     327.732µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:07 | 200 |     480.748µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+GET
+[GIN] 2020/12/14 - 15:46:09 | 200 |     823.052µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/14 - 15:46:09 | 200 |    1.167351ms |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:09 | 200 |     656.266µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:15 | 200 |     940.965µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:15 | 200 |     529.559µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:46:15 | 200 |     578.445µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/14 - 15:46:17 | 200 |     972.445µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/14 - 15:46:17 | 200 |     728.395µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:17 | 200 |     602.811µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+GET
+[GIN] 2020/12/14 - 15:46:19 | 200 |     932.922µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/14 - 15:46:19 | 200 |     688.991µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:19 | 200 |     630.352µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:32 | 200 |     1.05423ms |       127.0.0.1 | GET      "/api/article_info?id=1&user_id="
+GET
+[GIN] 2020/12/14 - 15:46:32 | 200 |     709.416µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:46:32 | 200 |     321.834µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:46 | 200 |     928.304µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:46:46 | 200 |       326.5µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:46:46 | 200 |     490.416µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:47:03 | 200 |     772.707µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/14 - 15:47:03 | 200 |     287.476µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/14 - 15:47:03 | 200 |     580.453µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/14 - 15:59:29 | 404 |       36.88µs |       127.0.0.1 | GET      "/"
+OPTIONS
+[GIN] 2020/12/15 - 17:52:58 | 200 |      89.345µs |       127.0.0.1 | OPTIONS  "/admin/login"
+POST
+[mysql] 2020/12/15 17:52:58 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/15 17:52:58 connection.go:158: driver: bad connection
+[mysql] 2020/12/15 17:52:58 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/15 17:52:58 connection.go:158: driver: bad connection
+[GIN] 2020/12/15 - 17:52:58 | 200 |    1.600517ms |       127.0.0.1 | POST     "/admin/login"
+OPTIONS
+[GIN] 2020/12/15 - 17:52:58 | 200 |      53.063µs |       127.0.0.1 | OPTIONS  "/admin/v1/routes"
+GET
+
+[GIN] 2020/12/15 - 17:52:58 | 200 |     149.445µs |       127.0.0.1 | GET      "/admin/v1/routes"
+OPTIONS
+[GIN] 2020/12/15 - 17:52:58 | 200 |      79.557µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+GET
+
+[GIN] 2020/12/15 - 17:52:58 | 200 |     807.353µs |       127.0.0.1 | GET      "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/15 - 17:53:07 | 200 |       66.87µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/15 - 17:53:07 | 200 |     971.289µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/15 - 17:53:09 | 200 |      73.185µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/15 - 17:53:09 | 200 |     610.957µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/15 - 17:53:40 | 200 |      63.038µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_add"
+POST
+
+1608026017
+2020-12-15 17:53:37
+[GIN] 2020/12/15 - 17:53:40 | 200 |    9.262036ms |       127.0.0.1 | POST     "/admin/v1/article_add"
+GET
+[GIN] 2020/12/15 - 17:53:47 | 200 |     532.489µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/15 - 17:53:47 | 200 |     841.597µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/15 - 17:53:47 | 200 |     481.498µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+GET
+[GIN] 2020/12/15 - 17:53:47 | 200 |     667.675µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/15 - 17:53:47 | 200 |     998.339µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/15 - 17:53:53 | 200 |     880.311µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/15 - 17:53:54 | 200 |    1.007795ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/15 - 17:53:54 | 200 |       553.5µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/15 - 17:53:54 | 200 |     305.421µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/15 - 17:53:57 | 200 |     630.469µs |       127.0.0.1 | GET      "/api/article_info?id=2&user_id="
+GET
+[GIN] 2020/12/15 - 17:53:57 | 200 |     721.814µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/15 - 17:53:57 | 200 |     328.649µs |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/15 - 17:54:03 | 200 |      61.842µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/15 - 17:54:03 | 200 |      43.024µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/15 - 17:54:03 | 200 |     728.522µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/15 - 17:54:03 | 200 |     756.378µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+[mysql] 2020/12/16 15:05:34 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/16 15:05:34 connection.go:158: driver: bad connection
+[mysql] 2020/12/16 15:05:34 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/16 15:05:34 connection.go:158: driver: bad connection
+GET
+[GIN] 2020/12/16 - 15:05:34 | 200 |     1.03364ms |       127.0.0.1 | GET      "/api/column_list"
+[GIN] 2020/12/16 - 15:05:34 | 200 |    1.682754ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:05:34 | 200 |     639.241µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:05:34 | 200 |     281.794µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:05:34 | 200 |     523.604µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/16 - 15:05:44 | 200 |     755.953µs |       127.0.0.1 | GET      "/api/article_info?id=2&user_id="
+GET
+[GIN] 2020/12/16 - 15:05:44 | 200 |     682.067µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:05:44 | 200 |      331.86µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 15:10:42 | 200 |     977.188µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+[GIN] 2020/12/16 - 15:10:42 | 200 |     919.281µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:10:42 | 200 |     360.058µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 15:10:50 | 200 |     532.882µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 15:10:50 | 200 |    1.103304ms |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:10:50 | 200 |      455.09µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:10:52 | 200 |     679.658µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 15:10:55 | 200 |     957.944µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 15:10:55 | 200 |     675.993µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:10:55 | 200 |     433.295µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:10:56 | 200 |     657.448µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:10:56 | 200 |     356.414µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:10:56 | 200 |     526.659µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:10:59 | 200 |     698.611µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 15:11:01 | 200 |     714.931µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 15:11:01 | 200 |      798.03µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:01 | 200 |     691.388µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:05 | 200 |     709.957µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:05 | 200 |     344.915µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:05 | 200 |     471.368µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:06 | 200 |      698.73µs |       127.0.0.1 | GET      "/api/article_list?category_id=5&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:07 | 200 |     624.248µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:07 | 200 |     636.194µs |       127.0.0.1 | GET      "/api/article_list?category_id=3&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:08 | 200 |      623.66µs |       127.0.0.1 | GET      "/api/article_list?category_id=2&cate_id=0&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     973.362µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 15:11:11 | 200 |     707.597µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |      395.91µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |      689.22µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     343.304µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     538.903µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+GET
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |    1.046247ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 15:11:11 | 200 |    1.665136ms |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+[GIN] 2020/12/16 - 15:11:11 | 200 |      1.9275ms |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     731.017µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     473.265µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |      499.53µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     653.654µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     373.868µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:11 | 200 |     678.267µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |      779.14µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     479.179µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |      519.87µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     531.845µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     477.545µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     771.266µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     697.865µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     620.593µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     517.293µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     726.361µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |     749.075µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 15:11:12 | 200 |     747.154µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+GET
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |    1.307572ms |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+[GIN] 2020/12/16 - 15:11:12 | 200 |     952.191µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 15:11:12 | 200 |     1.46928ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+GET
+GET
+[GIN] 2020/12/16 - 15:11:12 | 200 |    1.031826ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 15:11:12 | 200 |    1.789066ms |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+[GIN] 2020/12/16 - 15:11:12 | 200 |    1.439798ms |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 15:11:13 | 200 |     967.887µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 15:11:13 | 200 |     861.027µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:13 | 200 |     551.667µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:13 | 200 |     638.638µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:13 | 200 |     757.955µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:11:13 | 200 |     429.287µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:14 | 200 |     631.247µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 15:11:14 | 200 |     326.742µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:11:14 | 200 |     489.177µs |       127.0.0.1 | GET      "/api/article_num_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:15:30 | 200 |      64.896µs |       127.0.0.1 | OPTIONS  "/admin/login"
+POST
+[GIN] 2020/12/16 - 15:15:30 | 200 |     916.968µs |       127.0.0.1 | POST     "/admin/login"
+OPTIONS
+[GIN] 2020/12/16 - 15:15:31 | 200 |       56.46µs |       127.0.0.1 | OPTIONS  "/admin/v1/routes"
+GET
+
+[GIN] 2020/12/16 - 15:15:31 | 200 |     133.136µs |       127.0.0.1 | GET      "/admin/v1/routes"
+OPTIONS
+[GIN] 2020/12/16 - 15:15:31 | 200 |      55.489µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 15:15:31 | 200 |     651.103µs |       127.0.0.1 | GET      "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:26 | 200 |      66.357µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:26 | 200 |     863.488µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:27 | 200 |      55.667µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:27 | 200 |     601.969µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:33 | 200 |      54.859µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:33 | 200 |      55.625µs |       127.0.0.1 | OPTIONS  "/admin/v1/column_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:33 | 200 |     645.838µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:33 | 200 |     595.556µs |       127.0.0.1 | GET      "/admin/v1/column_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:49 | 200 |      59.315µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_add"
+POST
+
+[GIN] 2020/12/16 - 15:20:49 | 200 |    5.296482ms |       127.0.0.1 | POST     "/admin/v1/category_add"
+OPTIONS
+[GIN] 2020/12/16 - 15:20:49 | 200 |      72.802µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:49 | 200 |     555.137µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:20:52 | 200 |     597.447µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:39:34 | 200 |      81.033µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_add"
+POST
+
+1608103256
+2020-12-16 15:20:56
+[GIN] 2020/12/16 - 15:39:34 | 200 |    4.842273ms |       127.0.0.1 | POST     "/admin/v1/article_add"
+OPTIONS
+[GIN] 2020/12/16 - 15:39:37 | 200 |      72.767µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 15:39:37 | 200 |      51.817µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 15:39:37 | 200 |     664.457µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 15:39:37 | 200 |     922.956µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+[GIN] 2020/12/16 - 15:39:41 | 200 |     540.021µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 15:39:41 | 200 |    1.011849ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+[GIN] 2020/12/16 - 15:39:41 | 200 |     793.736µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 15:39:45 | 200 |     708.059µs |       127.0.0.1 | GET      "/api/article_info?id=3&user_id="
+GET
+[GIN] 2020/12/16 - 15:39:45 | 200 |     510.113µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 15:39:45 | 200 |      803.46µs |       127.0.0.1 | GET      "/api/article_num_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:40:10 | 200 |      57.133µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=1"
+OPTIONS
+[GIN] 2020/12/16 - 15:40:10 | 200 |      49.004µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:40:10 | 200 |     941.361µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=1"
+GET
+
+[GIN] 2020/12/16 - 15:40:10 | 200 |     387.831µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:40:15 | 200 |       55.96µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=2"
+OPTIONS
+[GIN] 2020/12/16 - 15:40:15 | 200 |      51.026µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:40:15 | 200 |     720.081µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=2"
+GET
+
+[GIN] 2020/12/16 - 15:40:15 | 200 |     476.479µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:40:18 | 200 |      55.136µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=3"
+GET
+
+[GIN] 2020/12/16 - 15:40:18 | 200 |     604.188µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:40:18 | 200 |     718.053µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=3"
+OPTIONS
+[GIN] 2020/12/16 - 15:52:35 | 200 |      72.472µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:52:35 | 200 |      36.478µs |       127.0.0.1 | OPTIONS  "/admin/v1/column_list"
+GET
+
+[GIN] 2020/12/16 - 15:52:35 | 200 |     567.287µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:52:35 | 200 |      511.63µs |       127.0.0.1 | GET      "/admin/v1/column_list"
+GET
+
+[GIN] 2020/12/16 - 15:52:35 | 200 |     567.116µs |       127.0.0.1 | GET      "/admin/v1/column_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:53:32 | 200 |      59.036µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:53:32 | 200 |     587.629µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:53:37 | 200 |      75.096µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=3"
+OPTIONS
+[GIN] 2020/12/16 - 15:53:37 | 200 |      57.893µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:53:37 | 200 |     792.605µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=3"
+GET
+
+[GIN] 2020/12/16 - 15:53:37 | 200 |       563.2µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:54:27 | 200 |      60.702µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:54:27 | 200 |     630.843µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:54:33 | 200 |      57.472µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 15:54:33 | 200 |      34.397µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 15:54:33 | 200 |     943.271µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 15:54:33 | 200 |     535.476µs |       127.0.0.1 | GET      "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 15:54:34 | 200 |      55.734µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 15:54:34 | 200 |     644.506µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 16:40:08 | 200 |      62.417µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 16:40:08 | 200 |      55.565µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 16:40:08 | 200 |     662.496µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 16:40:08 | 200 |     789.672µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:01:38 | 200 |      76.586µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:01:39 | 200 |     599.568µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:02:14 | 200 |      61.777µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_add"
+POST
+
+1576486928
+2019-12-16 17:02:08
+[GIN] 2020/12/16 - 17:02:14 | 200 |    6.311922ms |       127.0.0.1 | POST     "/admin/v1/article_add"
+GET
+[GIN] 2020/12/16 - 17:02:17 | 200 |      692.64µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 17:02:17 | 200 |      1.1023ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:02:17 | 200 |     776.756µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:04:01 | 200 |     534.455µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/16 - 17:04:01 | 200 |     408.764µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:04:01 | 200 |     256.595µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/16 - 17:04:01 | 200 |     576.839µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:04:01 | 200 |     434.225µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:04:14 | 200 |     686.914µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:04:14 | 200 |     584.185µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:04:14 | 200 |     297.654µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:06:26 | 200 |     579.632µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/16 - 17:06:26 | 200 |     558.071µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:26 | 200 |     564.553µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:06:26 | 200 |     284.191µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:06:26 | 200 |      529.48µs |       127.0.0.1 | GET      "/api/column_list"
+GET
+[GIN] 2020/12/16 - 17:06:34 | 200 |     878.008µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:06:34 | 200 |     304.188µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:06:34 | 200 |     435.808µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:38 | 200 |     696.892µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=5&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:40 | 200 |     674.774µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:42 | 200 |     753.834µs |       127.0.0.1 | GET      "/api/article_list?category_id=2&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:47 | 200 |     697.783µs |       127.0.0.1 | GET      "/api/article_info?id=3&user_id="
+GET
+[GIN] 2020/12/16 - 17:06:47 | 200 |     506.026µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:06:47 | 200 |     630.119µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:06:54 | 200 |     823.907µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:06:54 | 200 |     296.891µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:06:54 | 200 |     428.889µs |       127.0.0.1 | GET      "/api/article_list?category_id=2&cate_id=0&article_name="
+GET
+[GIN] 2020/12/16 - 17:06:58 | 200 |     729.686µs |       127.0.0.1 | GET      "/api/article_info?id=3&user_id="
+GET
+[GIN] 2020/12/16 - 17:06:58 | 200 |     582.967µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:06:58 | 200 |     274.364µs |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:18:37 | 200 |      72.608µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 17:18:37 | 200 |      38.178µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 17:18:37 | 200 |     762.899µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 17:18:37 | 200 |      850.63µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+[GIN] 2020/12/16 - 17:18:54 | 200 |     756.321µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:18:54 | 200 |      449.79µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=2&article_name="
+GET
+[GIN] 2020/12/16 - 17:18:54 | 200 |     589.531µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:18:56 | 200 |     677.693µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=5&article_name="
+GET
+[GIN] 2020/12/16 - 17:19:07 | 200 |    2.338407ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=4&article_name="
+GET
+[GIN] 2020/12/16 - 17:19:09 | 200 |     711.618µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+OPTIONS
+[GIN] 2020/12/16 - 17:22:20 | 200 |      67.017µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:22:20 | 200 |     596.739µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:23:10 | 200 |      61.615µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_add"
+POST
+
+1607419369
+2020-12-08 17:22:49
+[GIN] 2020/12/16 - 17:23:10 | 200 |    2.936875ms |       127.0.0.1 | POST     "/admin/v1/article_add"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:08 | 200 |      65.297µs |       127.0.0.1 | OPTIONS  "/admin/v1/column_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:08 | 200 |      602.49µs |       127.0.0.1 | GET      "/admin/v1/column_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:10 | 200 |      58.884µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:10 | 200 |     958.479µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:12 | 200 |      77.624µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:12 | 200 |      51.423µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:12 | 200 |     666.007µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:29:12 | 200 |     532.562µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:20 | 200 |      54.629µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=4"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:20 | 200 |       46.35µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:20 | 200 |     671.923µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=4"
+GET
+
+[GIN] 2020/12/16 - 17:29:20 | 200 |     467.488µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:21 | 200 |      54.531µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=1"
+GET
+
+[GIN] 2020/12/16 - 17:29:21 | 200 |     599.583µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:21 | 200 |     971.246µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=1"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:28 | 200 |      74.234µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:28 | 200 |      41.584µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+GET
+
+[GIN] 2020/12/16 - 17:29:28 | 200 |    1.167144ms |       127.0.0.1 | GET      "/admin/v1/info"
+[GIN] 2020/12/16 - 17:29:28 | 200 |     909.211µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:29 | 200 |      55.876µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:29 | 200 |       43.19µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:29 | 200 |     672.743µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:29:29 | 200 |     523.269µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:32 | 200 |     649.829µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/16 - 17:29:32 | 200 |     711.662µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:33 | 200 |      56.675µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=1"
+GET
+
+[GIN] 2020/12/16 - 17:29:33 | 200 |     548.397µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:33 | 200 |     891.771µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=1"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:41 | 200 |      55.834µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=2"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:41 | 200 |      77.274µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:41 | 200 |     686.333µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=2"
+GET
+
+[GIN] 2020/12/16 - 17:29:41 | 200 |     549.888µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:44 | 200 |      54.634µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=3"
+GET
+
+[GIN] 2020/12/16 - 17:29:44 | 200 |     551.746µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:44 | 200 |     712.648µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=3"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:46 | 200 |      57.438µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:46 | 200 |       48.02µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:46 | 200 |     711.254µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:29:46 | 200 |     515.857µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:54 | 200 |      55.659µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:29:54 | 200 |      43.443µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:29:54 | 200 |     680.956µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:29:54 | 200 |      475.64µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+GET
+GET
+[GIN] 2020/12/16 - 17:29:56 | 200 |    1.341094ms |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+[GIN] 2020/12/16 - 17:29:56 | 200 |     872.983µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 17:29:56 | 200 |    1.669671ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:29:58 | 200 |     748.302µs |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+GET
+[GIN] 2020/12/16 - 17:29:58 | 200 |     977.123µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:29:58 | 200 |      756.17µs |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:30:15 | 200 |       57.51µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_edit"
+POST
+
+[GIN] 2020/12/16 - 17:30:15 | 200 |    4.624419ms |       127.0.0.1 | POST     "/admin/v1/article_edit"
+OPTIONS
+[GIN] 2020/12/16 - 17:30:17 | 200 |      66.322µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:30:17 | 200 |      56.201µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:30:17 | 200 |     714.433µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:30:17 | 200 |     520.045µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 17:30:20 | 200 |     929.494µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+GET
+[GIN] 2020/12/16 - 17:30:20 | 200 |    1.172894ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:30:20 | 200 |     751.993µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:30:22 | 200 |     701.267µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 17:30:22 | 200 |     710.408µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:30:22 | 200 |     941.173µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:30:23 | 200 |     751.269µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=1&article_name="
+GET
+GET
+[GIN] 2020/12/16 - 17:30:23 | 200 |     673.347µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:30:23 | 200 |     910.995µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+GET
+[GIN] 2020/12/16 - 17:30:24 | 200 |    1.212537ms |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+[GIN] 2020/12/16 - 17:30:24 | 200 |    1.034404ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/16 - 17:30:24 | 200 |       425.9µs |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:34:17 | 200 |      65.357µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/16 - 17:34:17 | 200 |      60.787µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/16 - 17:34:17 | 200 |     829.618µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/16 - 17:34:17 | 200 |     654.195µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/16 - 17:34:20 | 200 |      66.355µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_edit"
+POST
+
+[GIN] 2020/12/16 - 17:34:20 | 200 |    4.842431ms |       127.0.0.1 | POST     "/admin/v1/article_edit"
+GET
+GET
+[GIN] 2020/12/16 - 17:34:23 | 200 |    1.155089ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/16 - 17:34:23 | 200 |    1.117939ms |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+[GIN] 2020/12/16 - 17:34:23 | 200 |     498.214µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/16 - 17:41:19 | 200 |    2.799755ms |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+GET
+[GIN] 2020/12/16 - 17:41:19 | 200 |     704.818µs |       127.0.0.1 | GET      "/api/category_list"
+[GIN] 2020/12/16 - 17:41:19 | 200 |    1.255764ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+
+[GIN] 2020/12/17 - 10:02:36 | 401 |     113.749µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/17 - 10:02:36 | 401 |      85.658µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:42 | 200 |      56.825µs |       127.0.0.1 | OPTIONS  "/admin/login"
+POST
+[mysql] 2020/12/17 10:02:42 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/17 10:02:42 connection.go:158: driver: bad connection
+[mysql] 2020/12/17 10:02:42 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/17 10:02:42 connection.go:158: driver: bad connection
+[GIN] 2020/12/17 - 10:02:42 | 200 |    1.274768ms |       127.0.0.1 | POST     "/admin/login"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:42 | 200 |      56.362µs |       127.0.0.1 | OPTIONS  "/admin/v1/routes"
+GET
+
+[GIN] 2020/12/17 - 10:02:42 | 200 |     143.915µs |       127.0.0.1 | GET      "/admin/v1/routes"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:42 | 200 |      55.606µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+GET
+
+[GIN] 2020/12/17 - 10:02:42 | 200 |     633.384µs |       127.0.0.1 | GET      "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:45 | 200 |      73.273µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/17 - 10:02:45 | 200 |     958.526µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:47 | 200 |      58.333µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:47 | 200 |      51.911µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/17 - 10:02:47 | 200 |      802.11µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/17 - 10:02:47 | 200 |     402.422µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:54 | 200 |      60.864µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_edit"
+POST
+
+[GIN] 2020/12/17 - 10:02:54 | 200 |     5.26499ms |       127.0.0.1 | POST     "/admin/v1/article_edit"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:56 | 200 |      55.279µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=5"
+OPTIONS
+[GIN] 2020/12/17 - 10:02:56 | 200 |      50.948µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/17 - 10:02:56 | 200 |     778.841µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=5"
+GET
+
+[GIN] 2020/12/17 - 10:02:56 | 200 |     555.055µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+GET
+[GIN] 2020/12/17 - 10:03:00 | 200 |     969.744µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/17 - 10:03:00 | 200 |     584.362µs |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+[GIN] 2020/12/17 - 10:03:00 | 200 |     497.786µs |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:25:29 | 200 |      66.473µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/17 - 10:25:29 | 200 |     582.459µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:25:32 | 200 |      58.647µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/17 - 10:25:32 | 200 |      51.881µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/17 - 10:25:32 | 200 |     613.554µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/17 - 10:25:32 | 200 |     940.401µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/17 - 10:25:33 | 200 |     586.125µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 10:27:02 | 200 |      74.246µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_add"
+POST
+
+1560997563
+2019-06-20 10:26:03
+[GIN] 2020/12/17 - 10:27:02 | 200 |    7.074145ms |       127.0.0.1 | POST     "/admin/v1/article_add"
+OPTIONS
+[GIN] 2020/12/17 - 10:27:05 | 200 |      58.682µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/17 - 10:27:05 | 200 |      86.297µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/17 - 10:27:05 | 200 |     653.926µs |       127.0.0.1 | GET      "/admin/v1/info"
+GET
+
+[GIN] 2020/12/17 - 10:27:05 | 200 |     933.357µs |       127.0.0.1 | GET      "/admin/v1/article_list"
+GET
+[GIN] 2020/12/17 - 11:40:23 | 404 |      34.762µs |       127.0.0.1 | GET      "/"
+GET
+
+[GIN] 2020/12/17 - 15:05:36 | 401 |     121.591µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=6"
+GET
+
+[GIN] 2020/12/17 - 15:05:36 | 401 |      56.213µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:41 | 200 |      57.454µs |       127.0.0.1 | OPTIONS  "/admin/login"
+POST
+[GIN] 2020/12/17 - 15:05:41 | 200 |     788.998µs |       127.0.0.1 | POST     "/admin/login"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:41 | 200 |      52.097µs |       127.0.0.1 | OPTIONS  "/admin/v1/routes"
+GET
+
+[GIN] 2020/12/17 - 15:05:41 | 200 |     147.863µs |       127.0.0.1 | GET      "/admin/v1/routes"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:42 | 200 |      70.652µs |       127.0.0.1 | OPTIONS  "/admin/v1/info"
+GET
+
+[GIN] 2020/12/17 - 15:05:42 | 200 |     684.961µs |       127.0.0.1 | GET      "/admin/v1/info"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:44 | 200 |      54.841µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_list"
+GET
+
+[GIN] 2020/12/17 - 15:05:44 | 200 |    1.014401ms |       127.0.0.1 | GET      "/admin/v1/article_list"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:46 | 200 |      55.093µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=6"
+OPTIONS
+[GIN] 2020/12/17 - 15:05:46 | 200 |      45.793µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+[GIN] 2020/12/17 - 15:05:46 | 200 |     751.606µs |       127.0.0.1 | GET      "/admin/v1/article_info?id=6"
+GET
+
+[GIN] 2020/12/17 - 15:05:46 | 200 |     448.145µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 15:06:14 | 200 |      65.686µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_edit"
+POST
+
+[GIN] 2020/12/17 - 15:06:14 | 200 |    5.206251ms |       127.0.0.1 | POST     "/admin/v1/article_edit"
+GET
+[GIN] 2020/12/17 - 15:06:18 | 200 |     752.384µs |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+[GIN] 2020/12/17 - 15:06:18 | 200 |     783.608µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/17 - 15:06:18 | 200 |     545.694µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/17 - 15:06:20 | 200 |     671.942µs |       127.0.0.1 | GET      "/api/article_info?id=6&user_id="
+GET
+GET
+[GIN] 2020/12/17 - 15:06:20 | 200 |      885.94µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/17 - 15:06:20 | 200 |     1.06677ms |       127.0.0.1 | GET      "/api/category_list"
+OPTIONS
+[GIN] 2020/12/17 - 16:58:40 | 200 |      73.208µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_info?id=6"
+OPTIONS
+[GIN] 2020/12/17 - 16:58:40 | 200 |      16.225µs |       127.0.0.1 | OPTIONS  "/admin/v1/category_list"
+GET
+
+GET
+
+[GIN] 2020/12/17 - 16:58:40 | 200 |     830.375µs |       127.0.0.1 | GET      "/admin/v1/category_list"
+[GIN] 2020/12/17 - 16:58:40 | 200 |    1.030917ms |       127.0.0.1 | GET      "/admin/v1/article_info?id=6"
+OPTIONS
+[GIN] 2020/12/17 - 16:58:49 | 200 |      69.679µs |       127.0.0.1 | OPTIONS  "/admin/v1/article_edit"
+POST
+
+[GIN] 2020/12/17 - 16:58:49 | 200 |    4.409058ms |       127.0.0.1 | POST     "/admin/v1/article_edit"
+GET
+GET
+[GIN] 2020/12/17 - 16:58:53 | 200 |    1.183929ms |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN] 2020/12/17 - 16:58:53 | 200 |    1.059156ms |       127.0.0.1 | GET      "/api/article_info?id=6&user_id="
+GET
+[GIN] 2020/12/17 - 16:58:53 | 200 |     489.534µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[mysql] 2020/12/18 09:38:18 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/18 09:38:18 connection.go:158: driver: bad connection
+[mysql] 2020/12/18 09:38:18 packets.go:122: closing bad idle connection: EOF
+[mysql] 2020/12/18 09:38:18 connection.go:158: driver: bad connection
+[GIN] 2020/12/18 - 09:38:18 | 200 |    2.673804ms |       127.0.0.1 | GET      "/api/article_info?id=5&user_id="
+GET
+[GIN] 2020/12/18 - 09:38:18 | 200 |     680.528µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:38:18 | 200 |     278.504µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:38:22 | 200 |     683.475µs |       127.0.0.1 | GET      "/api/article_list?category_id=0&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:38:22 | 200 |     300.392µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:38:22 | 200 |     629.801µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:38:26 | 200 |     868.315µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:38:26 | 200 |     303.354µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:38:26 | 200 |     519.278µs |       127.0.0.1 | GET      "/api/article_list?category_id=1&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:38:27 | 200 |     682.951µs |       127.0.0.1 | GET      "/api/article_list?category_id=6&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:38:28 | 200 |     776.629µs |       127.0.0.1 | GET      "/api/article_list?category_id=5&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:38:29 | 200 |     693.014µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /admin/login              --> gin.blog.com/admin.Login (4 handlers)
+[GIN-debug] GET    /api/column_list          --> gin.blog.com/admin.ColumnList (4 handlers)
+[GIN-debug] GET    /api/category_list        --> gin.blog.com/admin.CategoryList (4 handlers)
+[GIN-debug] GET    /api/article_list         --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /api/article_info         --> gin.blog.com/api.ArticleInfo (4 handlers)
+[GIN-debug] GET    /api/article_num_list     --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /admin/v1/routes          --> gin.blog.com/admin.Routers (5 handlers)
+[GIN-debug] GET    /admin/v1/info            --> gin.blog.com/admin.Info (5 handlers)
+[GIN-debug] POST   /admin/v1/column_add      --> gin.blog.com/admin.ColumnAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/column_list     --> gin.blog.com/admin.ColumnList (5 handlers)
+[GIN-debug] GET    /admin/v1/category_list   --> gin.blog.com/admin.CategoryList (5 handlers)
+[GIN-debug] POST   /admin/v1/category_add    --> gin.blog.com/admin.CategoryAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/category_info   --> gin.blog.com/admin.CategoryInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/category_edit   --> gin.blog.com/admin.CategoryEdit (5 handlers)
+[GIN-debug] GET    /admin/v1/article_list    --> gin.blog.com/admin.ArticleList (5 handlers)
+[GIN-debug] POST   /admin/v1/article_add     --> gin.blog.com/admin.ArticleAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/article_info    --> gin.blog.com/admin.ArticleInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/article_edit    --> gin.blog.com/admin.ArticleEdit (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+GET
+[GIN] 2020/12/18 - 09:41:51 | 200 |      236.25µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:41:51 | 200 |      81.191µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:41:51 | 200 |     646.533µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:41:52 | 200 |     101.547µs |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:41:52 | 200 |      54.402µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:41:52 | 200 |     513.536µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:41:54 | 200 |     537.733µs |       127.0.0.1 | GET      "/api/category_list"
+GET
+[GIN] 2020/12/18 - 09:41:54 | 200 |      72.223µs |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+GET
+[GIN] 2020/12/18 - 09:41:54 | 200 |     107.811µs |       127.0.0.1 | GET      "/api/article_num_list"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /admin/login              --> gin.blog.com/admin.Login (4 handlers)
+[GIN-debug] GET    /api/column_list          --> gin.blog.com/admin.ColumnList (4 handlers)
+[GIN-debug] GET    /api/category_list        --> gin.blog.com/admin.CategoryList (4 handlers)
+[GIN-debug] GET    /api/article_list         --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /api/article_info         --> gin.blog.com/api.ArticleInfo (4 handlers)
+[GIN-debug] GET    /api/article_num_list     --> gin.blog.com/api.ArticleList (4 handlers)
+[GIN-debug] GET    /admin/v1/routes          --> gin.blog.com/admin.Routers (5 handlers)
+[GIN-debug] GET    /admin/v1/info            --> gin.blog.com/admin.Info (5 handlers)
+[GIN-debug] POST   /admin/v1/column_add      --> gin.blog.com/admin.ColumnAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/column_list     --> gin.blog.com/admin.ColumnList (5 handlers)
+[GIN-debug] GET    /admin/v1/category_list   --> gin.blog.com/admin.CategoryList (5 handlers)
+[GIN-debug] POST   /admin/v1/category_add    --> gin.blog.com/admin.CategoryAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/category_info   --> gin.blog.com/admin.CategoryInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/category_edit   --> gin.blog.com/admin.CategoryEdit (5 handlers)
+[GIN-debug] GET    /admin/v1/article_list    --> gin.blog.com/admin.ArticleList (5 handlers)
+[GIN-debug] POST   /admin/v1/article_add     --> gin.blog.com/admin.ArticleAdd (5 handlers)
+[GIN-debug] GET    /admin/v1/article_info    --> gin.blog.com/admin.ArticleInfo (5 handlers)
+[GIN-debug] POST   /admin/v1/article_edit    --> gin.blog.com/admin.ArticleEdit (5 handlers)
+[GIN-debug] Listening and serving HTTP on :8080
+GET
+GET
+[GIN] 2020/12/18 - 09:44:54 | 200 |    1.651648ms |       127.0.0.1 | GET      "/api/article_list?category_id=4&cate_id=0&article_name="
+[GIN] 2020/12/18 - 09:44:54 | 200 |    1.861994ms |       127.0.0.1 | GET      "/api/article_num_list"
+GET
+[GIN] 2020/12/18 - 09:44:54 | 200 |     384.121µs |       127.0.0.1 | GET      "/api/category_list"
