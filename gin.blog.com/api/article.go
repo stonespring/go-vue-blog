@@ -8,9 +8,6 @@ import (
 	"net/http"
 )
 
-var (
-	where   = map[string]interface{}{}
-)
 
 
 //文章列表
@@ -18,10 +15,13 @@ func ArticleList(c *gin.Context)  {
 	var Article []models.Article
 	category_id := c.Query("category_id")
 
-	if category_id != "" {
+	where   := map[string]interface{}{}
+
+	if category_id != "0"  {
+		where["category_id"] = category_id
 		db.GetDb().Table(models.BlogArticleTable).Where(where).Order("id desc").Find(&Article)
 	}else{
-		db.GetDb().Table(models.BlogArticleTable).Find(&Article)
+		db.GetDb().Debug().Table(models.BlogArticleTable).Find(&Article)
 	}
 
 
@@ -34,6 +34,7 @@ func ArticleList(c *gin.Context)  {
 
 //编辑文章显示
 func ArticleInfo(c *gin.Context){
+	where   := map[string]interface{}{}
 	formArticle := models.Article{}
 	//获取get参数
 	id := c.Query("id");
@@ -56,5 +57,25 @@ func ArticleInfo(c *gin.Context){
 		"code" : code,
 		"msg" : msg,
 		"data": formArticle,
+	})
+}
+
+//文章列表
+func ArticleNumList(c *gin.Context)  {
+	var Article []models.Article
+	category_id := c.Query("category_id")
+	where   := map[string]interface{}{}
+	if category_id != "" {
+		where["category_id"] = category_id
+		db.GetDb().Table(models.BlogArticleTable).Where(where).Order("id desc").Limit(10).Find(&Article)
+	}else{
+		db.GetDb().Debug().Table(models.BlogArticleTable).Limit(10).Order("create_date desc").Find(&Article)
+	}
+
+
+	c.JSON(http.StatusOK, gin.H{
+		"code" : common.SUCCESS,
+		"msg" : common.GetMsg(common.SUCCESS),
+		"data": Article,
 	})
 }
